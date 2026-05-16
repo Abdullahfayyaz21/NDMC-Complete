@@ -144,10 +144,10 @@ function Home() {
         <div className="relative border-t border-border/70 bg-white/40 backdrop-blur-sm">
           <div className="mx-auto max-w-7xl px-6 lg:px-10 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { n: 15, s: "+", label: "Years Experience" },
+              { n: 30, s: "+", label: "Years Experience" },
               { n: 5000, s: "+", label: "Patients Treated" },
               { n: 30, s: "+", label: "Procedures Offered" },
-              { n: 98, s: "%", label: "Patient Satisfaction" },
+              { n: 99, s: "%", label: "Patient Satisfaction" },
             ].map((c, i) => (
               <Reveal key={i} delay={i * 0.05} className="text-center md:text-left">
                 <p className="font-display text-4xl md:text-5xl text-charcoal">
